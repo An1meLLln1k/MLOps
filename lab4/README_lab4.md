@@ -30,9 +30,9 @@ dvc init
 
 ### 2. Настройка удалённого хранилища
 #### 🔸 Вариант 1: Google Drive
-```bash
-pip install "dvc[gdrive]"
-dvc remote add -d gdrive_remote gdrive://<ваш-folder-id>
+```Не получилось. DVC использует неофициальное приложение для авторизации в Google Drive, и Google блокирует его по умолчанию.
+![image](https://github.com/user-attachments/assets/955ac8a6-9cfd-420c-b98a-f3625a1e0b22)
+
 ```
 
 #### 🔸 Вариант 2: Локально
@@ -100,4 +100,4 @@ git push -u origin main
 ---
 
 ## 🔁 Pull Request
-Создан pull request в [репозиторий преподавателя](https://github.com/kimigara1337/MLOps)
+Создан pull request в (https://github.com/kimigara1337/MLOps)
